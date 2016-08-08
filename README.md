@@ -1,2 +1,4 @@
 # Material-Icon-Theme
-A theme for Discord changing icons
+Changes Discords icons to Material Design Icons
+
+<img src="http://i.imgur.com/9XClza0.png">
