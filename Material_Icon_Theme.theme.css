@@ -1,5 +1,5 @@
-//META{"name":"Material_Icons","description":"Replaces Discord icons with material design icons","author":"Zerthox","version":"1.0"}*//{}
-/* "Discord Material Icons v1.0" by @Zerthox */
+//META{"name":"Material_Icons","description":"Replaces Discord icons with material design icons","author":"Zerthox","version":"1.1"}*//{}
+/* "Discord Material Icons v1.1" by @Zerthox */
 
 .member-roles .member-role .member-role-remove {
     background: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/close.svg) 50% no-repeat;
@@ -758,4 +758,27 @@ span[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR
     margin: 0px;
     margin-top: -3px;
     opacity: .3;
+}
+.private-channels .channel .close {
+    background-image: url(https://cdn.rawgit.com/Zerthox/DiscordReBorn/master/icons/close.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+}
+.private-channel-call .btn-icon-settings:after {
+	background-image: url(https://cdn.rawgit.com/Zerthox/DiscordReBorn/master/icons/settings.svg) !important;
+    background-position: center;
+}
+.private-channel-call .btn-icon-mute:after {
+	background-image: url(https://cdn.rawgit.com/Zerthox/DiscordReBorn/master/icons/mic.svg) !important;
+    background-position: center;
+}
+.private-channel-call .btn-icon-mute.mute:after {
+	background-image: url(https://cdn.rawgit.com/Zerthox/DiscordReBorn/master/icons/mic_off.svg) !important;
+    background-position: center;
+}
+.private-channel-call .status-deafened:after, .private-channel-call .status-muted:after {
+    background-image: url(https://cdn.rawgit.com/Zerthox/DiscordReBorn/master/icons/mic_off.svg) !important;
+    background-position: center;
+    background-size: 18px;
 }
