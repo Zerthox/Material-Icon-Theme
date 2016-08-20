@@ -1,5 +1,5 @@
-//META{"name":"Material_Icons","description":"Replaces Discord icons with material design icons","author":"Zerthox","version":"1.2"}*//{}
-/* "Discord Material Icons v1.2" by @Zerthox */
+//META{"name":"Material_Icons","description":"Replaces Discord icons with material design icons","author":"Zerthox","version":"1.3"}*//{}
+/* "Discord Material Icons v1.3" by @Zerthox */
 
 .member-roles .member-role .member-role-remove {
     background: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/close.svg) 50% no-repeat;
@@ -528,21 +528,22 @@ span[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR
 .header-toolbar button span {
     opacity: .7;
 }
-.header-toolbar button:nth-child(3) span {
+.header-toolbar button:nth-child(3) span,
+.private .channel-group-dm + .header-toolbar button:nth-child(4) span {
     background-image: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/group.svg) !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px;
 }
-.header-toolbar button:nth-child(2) span,
-.private .header-toolbar button:nth-child(1) span {
+.header-toolbar #CHANNEL_PINS_BUTTON_ID span {
     background-image: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/pin.svg) !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px;
 }
 .header-toolbar button:nth-child(5) span,
-#friends .header-toolbar button:nth-child(3) span {
+#friends .header-toolbar button:nth-child(3) span,
+.private .channel-group-dm + .header-toolbar button:nth-child(7) span {
     background-image: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/mail.svg) !important;
     background-repeat: no-repeat;
     background-position: center;
@@ -550,7 +551,8 @@ span[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR
 }
 .header-toolbar button:nth-child(6) span,
 #friends .header-toolbar button:nth-child(4) span,
-.private .header-toolbar button:nth-child(4) span {
+.private .header-toolbar button:nth-child(4) span,
+.private .channel-group-dm + .header-toolbar button:nth-child(8) span {
     background-image: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/help.svg) !important;
     background-repeat: no-repeat;
     background-position: center;
@@ -562,14 +564,15 @@ span[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR
     background-position: center;
     background-size: 24px;
 }
-.private .header-toolbar button:nth-child(1) span {
-	background-image: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/call.svg) !important;
+.private .header-toolbar .private-channel-call-btn span {
+    background-image: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/call.svg) !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px;
 }
-.private .header-toolbar button:nth-child(3) span {
-	background-image: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/person_add.svg) !important;
+.private .header-toolbar button:nth-child(3) span,
+.private .channel-group-dm + .header-toolbar button:nth-child(5) span {
+    background-image: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/person_add.svg) !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px;
