@@ -820,4 +820,6 @@ span[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR
     background-size: 24px;
     transform: rotate(45deg);
     opacity: .5;
+    height: 24px;
+    margin-top: -3px;
 }
