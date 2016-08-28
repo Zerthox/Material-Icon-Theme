@@ -1,5 +1,5 @@
-//META{"name":"Material_Icons","description":"Replaces Discord icons with material design icons","author":"Zerthox","version":"1.4b"}*//{}
-/* "Discord Material Icons v1.4b" by @Zerthox */
+//META{"name":"Material_Icons","description":"Replaces Discord icons with material design icons","author":"Zerthox","version":"1.5"}*//{}
+/* "Discord Material Icons v1.5" by @Zerthox */
 
 .member-roles .member-role .member-role-remove {
     background: url(https://cdn.rawgit.com/Zerthox/Material-Icon-Theme/master/icons/close.svg) 50% no-repeat;
@@ -822,4 +822,10 @@ span[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR
     opacity: .5;
     height: 24px;
     margin-top: -3px;
+}
+.notice .notice-dismiss {
+	background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
 }
